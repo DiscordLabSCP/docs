@@ -1,0 +1,77 @@
+site_name: DiscordLab
+site_url: https://discordlab.jxtq.moe
+theme:
+  name: material
+
+  features:
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#setting-up-navigation
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
+    - navigation.tracking
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-pruning
+    - navigation.prune
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#table-of-contents
+    - toc.follow
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
+    - search.suggest
+    - search.highlight
+    # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
+    - content.action.edit
+    - content.action.view
+    # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#modules
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+
+
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+nav:
+  - Home:
+      - Home: index.md
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - Module Installation: getting-started/modules.md
+      - Modules:
+          - DiscordLab.AdvancedLogging: getting-started/modules/al.md
+          - DiscordLab.BotStatus: getting-started/modules/bs.md
+          - DiscordLab.ConnectionLogs: getting-started/modules/cl.md
+          - DiscordLab.DeathLogs: getting-started/modules/dl.md
+          - DiscordLab.Moderation: getting-started/modules/m.md
+          - DiscordLab.ModerationLogs: getting-started/modules/ml.md
+          - DiscordLab.SCPSwap: getting-started/modules/ss.md
+          - DiscordLab.StatusChannel: getting-started/modules/sc.md
+          - DiscordLab.XPSystem: getting-started/modules/xp.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
