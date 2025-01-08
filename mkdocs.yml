@@ -68,6 +68,14 @@ nav:
           - DiscordLab.SCPSwap: getting-started/modules/ss.md
           - DiscordLab.StatusChannel: getting-started/modules/sc.md
           - DiscordLab.XPSystem: getting-started/modules/xp.md
+  - Frequently Asked Questions:
+      - FAQ: faq/index.md
+      - Placeholders: faq/placeholders.md
+  - API:
+      - API: api/index.md
+      - Basic Guide: api/guide.md
+      - Documentation:
+          - DiscordLab.Bot: api/docs/bot.md
 
 markdown_extensions:
   - admonition
