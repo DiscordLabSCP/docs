@@ -1,7 +1,15 @@
 site_name: DiscordLab
 site_url: https://discordlab.jxtq.moe
+
+repo_name: DiscordLab
+repo_url: https://github.com/DiscordLabSCP/DiscordLab
+edit_uri: https://github.com/DiscordLabSCP/docs/edit/main/docs
+
 theme:
   name: material
+
+  icon:
+    repo: fontawesome/brands/github-alt
 
   features:
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#setting-up-navigation
@@ -83,3 +91,6 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - md_in_html
+
+extra:
+  generator: false
