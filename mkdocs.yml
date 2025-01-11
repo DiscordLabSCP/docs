@@ -67,12 +67,14 @@ nav:
       - Installation: getting-started/installation.md
       - Module Installation: getting-started/modules.md
       - Modules:
+          - DiscordLab.AdminLogs: getting-started/modules/adl.md
           - DiscordLab.AdvancedLogging: getting-started/modules/al.md
           - DiscordLab.BotStatus: getting-started/modules/bs.md
           - DiscordLab.ConnectionLogs: getting-started/modules/cl.md
           - DiscordLab.DeathLogs: getting-started/modules/dl.md
           - DiscordLab.Moderation: getting-started/modules/m.md
           - DiscordLab.ModerationLogs: getting-started/modules/ml.md
+          - DiscordLab.RoundLogs: getting-started/modules/rl.md
           - DiscordLab.SCPSwap: getting-started/modules/ss.md
           - DiscordLab.StatusChannel: getting-started/modules/sc.md
           - DiscordLab.XPSystem: getting-started/modules/xp.md
